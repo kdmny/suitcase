@@ -3,12 +3,12 @@ $:.push File.expand_path("../lib", __FILE__)
 require "suitcase/version"
 
 Gem::Specification.new do |s|
-  s.name        = "rthbound-suitcase"
+  s.name        = "suitcase"
   s.version     = Suitcase::VERSION
-  s.authors     = ["Walter Nelson", "Tad Hosford"]
-  s.email       = ["tad@isotope11.com"]
-  s.homepage    = "http://github.com/rthbound/suitcase"
-  s.summary     = %q{Locates available hotels and rental cars through Expedia and Hotwire.  This is a fork of Walter Nelson's gem - suitcase}
+  s.authors     = ["Walter Nelson"]
+  s.email       = ["walter.john.nelson@gmail.com"]
+  s.homepage    = "http://github.com/thoughtfusion/suitcase"
+  s.summary     = %q{Locates available hotels and rental cars through Expedia and Hotwire}
   s.description = %q{Ruby library that utilizes the EAN (Expedia.com) API for locating available hotels and the Hotwire API for rental cars.}
 
   s.files         = `git ls-files`.split("\n")
